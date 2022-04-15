@@ -1,0 +1,89 @@
+* {
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+}
+
+.container {
+    width: 50vw;
+    background-color: blueviolet;
+    padding: 2rem;
+    border-radius: .2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: .3rem;
+    text-align: center;
+    background-color: bisque;
+    color: black;
+    cursor: pointer;
+    margin: 3px;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: burlywood;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .back {
+    background-color: crimson;
+    color: white;
+    
+}
+
+.buttons .submit {
+    background-color: rgb(34, 67, 139);
+    color: white;
+}
+
+.buttons button {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button:hover {opacity: .9;}
+
+input {
+    padding: 1rem;
+    border-radius: .3rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
